@@ -12,6 +12,7 @@ export interface IPoll extends Document {
     startTime?: Date;
     status: 'created' | 'active' | 'completed';
     votes: IVote[];
+    
     createdAt: Date;
 }
 
